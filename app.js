@@ -4,7 +4,7 @@ let count = 0;
 //selecionar valores e botões
 const value = document.querySelector('#value');
 const btns = document.querySelectorAll('.btn');
-
+//Lógica para adicionar ou remover números conforme o click nos botões
 btns.forEach(function(btn) {
     btn.addEventListener('click', function(e){
         const styles = e.currentTarget.classList;
